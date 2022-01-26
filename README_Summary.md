@@ -6,7 +6,7 @@ The project is to forecast the CAD-JPY exchange rate using time series analysis.
 
 ---
 
->Model: Time Series Forecasting
+# Model: Time Series Forecasting
 
 ### **Question: Do you see any patterns, long-term and/or short?**
 
@@ -22,10 +22,10 @@ Based on your time series analysis, would you buy the yen now?
 
 Answer:
 
-When p-value > .10 → the observed difference is "not significant" \ 
-When p-value ≤ .10 → the observed difference is "marginally significant" \ 
-When p-value ≤ .05 → the observed difference is "significant" \
-When p-value ≤ .01 → the observed difference is "highly significant" \
+When p-value > .10 → the observed difference is "not significant"   
+When p-value ≤ .10 → the observed difference is "marginally significant"   
+When p-value ≤ .05 → the observed difference is "significant"   
+When p-value ≤ .01 → the observed difference is "highly significant"  
 
 This model is therefore not a good fit as the p value is greater than 0.05.
 
@@ -37,7 +37,7 @@ Answer: The model shows that the JPY will strengthen against the Canadian Dollar
 
 Answer: The model forecasts there will be an increase to volatility over the next 5 days.
 
-# **Conclusions**
+## **Conclusions**
 
 ### **Based on your time series analysis, would you buy the yen now?**
 No, the models did not prove a good fit due to the high p values and it appears there will be increased volatility in the short term
@@ -48,9 +48,12 @@ There is projected to be an increase in the volatility, which means the risk is 
 ### **Based on the model evaluation, would you feel confident in using these models for trading?**
 I would not be confident to trade with these models as the ARMA and ARIMA models were not a good fit due to the p-values. The GARCH model was a better fit as the results indicated an increase to volatility. The issue is that volatility does not tell you which way the market is going to move.
 
->Model: Linear Regression Forecasting
+---
 
-# **Conclusions**
+# Model: Linear Regression Forecasting
+
+
+## **Conclusions**
 
 ### **Question: Does this model perform better or worse on out-of-sample data as compared to in-sample data?**
 
