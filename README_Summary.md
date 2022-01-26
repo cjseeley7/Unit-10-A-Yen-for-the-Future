@@ -22,10 +22,10 @@ Based on your time series analysis, would you buy the yen now?
 
 Answer:
 
-When p-value > .10 → the observed difference is "not significant"\ 
-When p-value ≤ .10 → the observed difference is "marginally significant"\ 
+When p-value > .10 → the observed difference is "not significant" \ 
+When p-value ≤ .10 → the observed difference is "marginally significant" \ 
 When p-value ≤ .05 → the observed difference is "significant" \
-When p-value ≤ .01 → the observed difference is "highly significant"\
+When p-value ≤ .01 → the observed difference is "highly significant" \
 
 This model is therefore not a good fit as the p value is greater than 0.05.
 
